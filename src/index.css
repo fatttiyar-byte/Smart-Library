@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "vazir";
+  src: url("./assets/fonts/ttf/Vazirmatn-ExtraBold.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+* {
+  font-family: "vazir", sans-serif !important;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  font-family: "vazir", sans-serif !important;
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: "vazir", sans-serif !important;
+}
+
+.MuiTypography-root,
+.MuiButton-root,
+.MuiChip-label,
+.MuiInputBase-root,
+.MuiInputBase-input,
+.MuiTextField-root {
+  font-family: "vazir", sans-serif !important;
+}
+
+
+
+body{
+  margin: 0;
+  background: url("/pattern.svg") center/cover fixed no-repeat;
+}
